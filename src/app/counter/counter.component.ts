@@ -8,10 +8,6 @@ import { Component } from '@angular/core';
 export class CounterComponent{
     contador:number = 0
 
-    add(){
-      this.contador++
-    }
-    dis(){
-      this.contador--
-    }
+    
+   
 }
