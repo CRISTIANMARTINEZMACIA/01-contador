@@ -1,3 +1,4 @@
+import { compileNgModule } from '@angular/compiler';
 import { Component } from '@angular/core';
 
 
@@ -8,6 +9,8 @@ import { Component } from '@angular/core';
 export class CounterComponent{
     contador:number = 0
 
-    
+    handleCount( value: number ){
+        this.contador = value
+    }
    
 }
